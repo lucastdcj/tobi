@@ -1,0 +1,26 @@
+ sub_id | problem_name | num_correct_tests 
+--------+--------------+-------------------
+   1264 | banda        |                 0
+   1271 | banda        |                 0
+   1282 | banda        |                 0
+   1287 | banda        |                 0
+   1294 | banda        |                 0
+   1301 | banda        |                 0
+   1312 | banda        |                 0
+   1327 | banda        |                 0
+   1335 | banda        |                 0
+   1339 | banda        |                 0
+   1343 | banda        |                 0
+   1347 | banda        |                 0
+   1351 | banda        |                 0
+   1356 | banda        |                 0
+   1360 | banda        |                30
+   1364 | banda        |               100
+   1646 | banda        |                10
+   1671 | banda        |                 0
+   1675 | banda        |                 0
+   1679 | banda        |                 0
+   1695 | banda        |                 0
+   1711 | banda        |                 0
+(22 rows)
+

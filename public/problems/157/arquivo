@@ -1,0 +1,97 @@
+---
+./
+---
+./tests
+---
+./tests/test1
+arquivo 1
+bem
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.004s
+OK-meu
+arquivo 2
+bem
+
+real	0m0.001s
+user	0m0.004s
+sys	0m0.000s
+OK-meu
+arquivo 3
+mal
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.004s
+OK-meu
+---
+./tests/test2
+arquivo 1
+bem
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+OK-meu
+arquivo 2
+bem
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+OK-meu
+arquivo 3
+mal
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+OK-meu
+---
+./tests/test3
+arquivo 1
+mal
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+OK-meu
+arquivo 2
+bem
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+OK-meu
+arquivo 3
+mal
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.004s
+OK-meu
+---
+./tests/test4
+arquivo 1
+bem
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+OK-meu
+arquivo 2
+bem
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+OK-meu
+arquivo 3
+bem
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+OK-meu
+arquivo 4

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+INPUT_FILE=$1
+JUDGE_OUT_FILE=$2
+OUTPUT_FILE=$3
+
+echo $1
+echo $2
+echo $3
+
+if (~/www/testes/2009f2pj_banda/correc $1 $2 < $3)
+then
+	exit 0
+else
+	exit 1
+fi

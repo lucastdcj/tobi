@@ -1,0 +1,6 @@
+#!/bin/bash
+
+compet_out=$1
+gabarito=$2
+DIFF="diff -B -b"
+sort -n ${compet_out} | ${DIFF} - ${gabarito}

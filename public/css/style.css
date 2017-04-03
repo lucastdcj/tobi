@@ -1,0 +1,1287 @@
+body {
+  font-size: 14px;
+  color: #000;  
+  background-color: #dedfde;
+  font-family: sans, sans-serif, Arial;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3 {
+  margin-bottom: 40px;
+}
+
+pre code,code code,pre pre,h1 code,h2 code,h3 code,h4 code,h5,h6 {
+  font-size: 100%;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 22px;
+}
+
+.sub-menu li {
+  display: block;
+}
+
+.title-box {
+  font-size: 25px;
+  background-color: #1e2029;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+}
+
+.title-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #42444f;
+  color: #acadb1;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  margin: 0;
+}
+
+.header_left_box {
+  float: left;
+}
+
+.header_right_box {
+  float: right;
+  padding-right: 4px;
+}
+
+.header li.active a,.header li.active:hover a {
+  color: #fff;
+  background-color: #2c2f3b;
+}
+
+.content {
+  background-color: #fff;
+  display: table;
+  width: 100%;
+  height: 560px;
+}
+
+.content a {
+  text-decoration: underline;
+  color: #2C2F3B;
+}
+
+.leftmenu {
+  float: left;
+  width: 25%;
+  background-color: #ddd;
+  height: 100%;
+  overflow-y: auto;
+  display: inherit;
+}
+
+.main {
+  width: 70%;
+  height: 100%;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+.textarea {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.main p {
+  text-align: justify;
+}
+
+.leftmenu li {
+  display: block;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  padding: 2px 0;
+}
+
+.leftmenu li.problemtype {
+  background-color: #1e2029;
+  color: #FFF;
+  font-weight: 700;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer {
+  background-color: #42444f;
+  color: #acadb1;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 180%;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 140%;
+}
+
+table td {
+  padding: 10px;
+}
+
+.feedback {
+  border: 1px solid #000;
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 35px;
+  padding: 20px;
+}
+
+.feedback.error {
+  border: 1px solid red;
+  color: red;
+}
+
+.feedback.success {
+  border: 1px solid green;
+  color: green;
+}
+
+tr.historyhead td {
+  font-weight: bolder;
+  font-size: 14px;
+  text-align:center;
+  background-color: #1e2029;
+  color: #FFF;   
+}
+
+tr.historytable td {
+  text-align:center;  
+}
+
+tr.historytable:nth-child(even) td {
+  text-align:center;  
+  background-color: #ddd;
+}
+
+ul#menu li,ul#menu {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+ul.sub-menu li {
+  list-style-type: none;
+  display: block;
+  font-size: 12px;
+}
+
+ul#menu li {
+  margin-left: -4px;
+  position: relative;
+}
+
+ul#menu ul.sub-menu {
+  padding-bottom: 5px;
+}
+
+li img {
+  padding-right: 5px;
+}
+
+ul#menu li a {
+  color: #acadb1;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+ul#menu li a,ul#menu li ul.sub-menu li a {
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+ul#menu li.active ul a {
+  color: #acadb1;
+}
+
+ul#menu li ul.sub-menu {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  background-color: #42444f;
+}
+
+ul#menu li.active ul.sub-menu {
+  background-color: #2c2f3b;
+}
+
+ul#menu li ul.sub-menu li a {
+  font-size: 10px;
+  padding: 10px 15px;
+}
+
+
+.leftmenu ul {
+  padding-left: 0em;
+}
+
+table.ranking {
+  padding-left: 20%;
+  width: 80%;
+}
+
+.header .namebox {
+  float: left;
+  background-color: #1e2029;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  height: 100%;
+  line-height: 44px;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+.header .avatar {
+  float: left;
+  width: 44px;
+  height: 44px;
+}
+
+input,select,textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+
+input {
+  display: block;
+  margin-bottom: 15px;
+  min-width: 200px;
+  padding: 10px;
+}
+
+input[type="text"],input[type="email"],input[type="password"] {
+  border: 1px solid #ddd;
+  color: #555;
+  font-weight: 700;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #eee;
+  color: #333;
+  font-size: 90%;
+  font-weight: 700;
+  line-height: 20px;
+  min-width: 54px;
+  border: 1px solid #bdbebd;
+  border-radius: 2px;
+  text-align: center;
+  margin: 6px 3px 6px 1px;
+  padding: 3px 8px;
+}
+
+.remember-me-checkbox {
+  float: left;
+  min-width: 0;
+  margin: 3px 10px 15px 0;
+}
+
+.remember-me-label {
+  float: left;
+  min-width: 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.login-submit-button {
+  float: none;
+  clear: both;
+}
+
+.login-form-password-pattern-reminder {
+  display: block;
+  color: #999;
+  font-size: 11px;
+}
+
+a.facebook-login-button,a.facebook-register-button {
+  background-color: #3b5998;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+
+a.facebook-login-button:hover,a.facebook-register-button:hover {
+  background-color: #2f477a;
+}
+
+.clear-both {
+  clear: both;
+}
+
+table.overview-table tr.inactive {
+  opacity: 0.3;
+}
+
+table.overview-table td {
+  vertical-align: middle;
+  padding: 6px 10px;
+}
+
+table.overview-table td.avatar {
+  padding: 0!important;
+}
+
+.debug-helper-box {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  color: #fff;
+  background-color: red;
+  font-weight: 700;
+  padding: 20px;
+}
+
+ul,ol,pre,dl,p {
+  margin: 0;
+}
+
+code.escaped {
+  white-space: nowrap;
+}
+
+.vspace {
+  margin-top: 1.33em;
+}
+
+.indent {
+  margin-left: 40px;
+}
+
+.outdent {
+  margin-left: 40px;
+  text-indent: -40px;
+}
+
+a.createlinktext {
+  text-decoration: none;
+  border-bottom: 1px dotted gray;
+}
+
+a.createlink {
+  text-decoration: none;
+  position: relative;
+  top: -.5em;
+  font-weight: 700;
+  font-size: smaller;
+  border-bottom: none;
+}
+
+img {
+  border: 0;
+}
+
+span.miniedit {
+  cursor: pointer;
+  color: transparent;
+  font-size: smaller;
+  position: absolute;
+  filter: alpha(opacity=0);
+  z-index: 2;
+  padding: .1em .5em;
+}
+
+span.miniedit:hover {
+  color: #000;
+  background: rgba(240,240,240,.5);
+  filter: alpha(opacity=70);
+}
+
+.editconflict {
+  color: green;
+  font-style: italic;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+table.markup {
+  border: 2px dotted #ccf;
+  width: 90%;
+}
+
+td.markup1,td.markup2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table.vert td.markup1 {
+  border-bottom: 1px solid #ccf;
+}
+
+table.horiz td.markup1 {
+  width: 23em;
+  border-right: 1px solid #ccf;
+}
+
+table.markup caption {
+  text-align: left;
+}
+
+div.faq p,div.faq pre {
+  margin-left: 2em;
+}
+
+div.faq p.question {
+  font-weight: 700;
+  margin: 1em 0 .75em;
+}
+
+div.faqtoc div.faq p.question {
+  display: block;
+  font-weight: 400;
+  line-height: normal;
+  margin: .5em 0 .5em 20px;
+}
+
+.frame {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 4px;
+}
+
+.lfloat {
+  float: left;
+  margin-right: .5em;
+}
+
+.rfloat {
+  float: right;
+  margin-left: .5em;
+}
+
+.cpp .de1,.cpp .de2 {
+  font-family: monospace;
+  font-weight: 400;
+}
+
+.cpp {
+  font-family: monospace;
+}
+
+.cpp .imp {
+  font-weight: 700;
+  color: red;
+}
+
+.cpp li,.cpp .li1 {
+  font-family: monospace;
+  color: #000;
+  font-weight: 400;
+}
+
+.cpp .ln {
+  width: 1px;
+  text-align: right;
+  vertical-align: top;
+  margin: 0;
+  padding: 0 2px;
+}
+
+.cpp .li2 {
+  font-weight: 700;
+}
+
+.cpp .co1 {
+  color: #666;
+}
+
+.cpp .co2 {
+  color: #390;
+}
+
+.cpp .coMULTI {
+  color: red;
+  font-style: italic;
+}
+
+.cpp .es5 {
+  color: #069;
+  font-weight: 700;
+}
+
+.cpp .sy1 {
+  color: navy;
+}
+
+.cpp .sy4 {
+  color: teal;
+}
+
+.cpp .st0 {
+  color: red;
+}
+
+.cpp .ln-xtra,.cpp li.ln-xtra,.cpp div.ln-xtra {
+  background-color: #ffc;
+}
+
+.sourceblocklink {
+  text-align: right;
+  font-size: smaller;
+}
+
+.sourceblocktext {
+  border: 1px solid gray;
+  color: #000;
+  background-color: #f1f0ed;
+  padding: .5em;
+}
+
+.sourceblocktext div {
+  font-family: monospace;
+  font-size: small;
+  line-height: 1;
+  height: 1%;
+}
+
+.sourceblocktext div.head,.sourceblocktext div.foot {
+  font: italic medium serif;
+  padding: .5em;
+}
+
+body,td,textarea,input,select {
+  font-size: 13px;
+}
+
+body,textarea {
+  line-height: 1.4em;
+}
+
+input,select {
+  line-height: 15px;
+}
+
+#wikiwrapper {
+  background: #fff;
+  width: 95%;
+  box-shadow: 0 2px 2px 0 #bbb;
+  height: 100%;
+  display: table;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#wikiwrapper-header,#wikiwrapper-body,#wikiwrapper-footer {
+  display: table-row;
+  margin: 0;
+  padding: 0;
+}
+
+#wikiwrapper-header {
+  background-color: #f7f7f7;
+  height: 65px;
+}
+
+#wikiwrapper-footer {
+  background: #848684 url(images/topnav_inv.png) repeat-x bottom left;
+  height: 40px;
+}
+
+textarea,pre,code {
+  font-size: 95%;
+}
+
+pre,code {
+  font-family: 'Lucida Console','Andale Mono','Courier New',Courier,monospace;
+}
+
+pre {
+  line-height: 1.2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 1em;
+  margin-bottom: .6em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 120%;
+}
+
+h4 {
+  font-size: 107%;
+}
+
+#wikihead {
+  width: 100%;
+  height: 64px;
+  color: #FFF;
+  background-color: #bbb;
+  background: transparent url(images/topnav.png) repeat-x;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.5);
+  border-radius: 0 0 5px 5px;
+}
+
+#wikilogo {
+  float: left;
+  margin: 6px 10px;
+}
+
+#wikisearch {
+  float: right;
+  margin: 10px 15px;
+}
+
+#wikimid {
+  height: 100%;
+}
+
+#wikileft {
+  width: 315px;
+  background: #f7f7f7;
+  line-height: 1.5em;
+  font-size: 90%;
+  overflow: visible;
+  padding: 6px;
+}
+
+#wikileft .vspace {
+  margin-top: 1.125em;
+}
+
+#wikileft a {
+  text-decoration: none;
+  color: #4a494a;
+  padding: 3px;
+}
+
+#wikileft ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#wikileft li {
+  width: 100%;
+  margin: 0;
+  padding: 1px 0 1px 6px;
+}
+
+#wikileft li:hover {
+  background: #fff;
+  border-radius: 7px 0 0 7px;
+  box-shadow: -1px 1px 1px #ddd;
+}
+
+#wikileft li li:hover {
+  background: #f7f7f7;
+  box-shadow: inset;
+}
+
+.sidehead {
+  font-size: 115%;
+  font-weight: 700;
+  font-style: normal;
+  border-top: 1px dotted #FFF;
+  margin: 0;
+  padding: 4px 2px 2px;
+}
+
+#wikileft .sidehead a {
+  color: #4a494a;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#wikibody {
+  background-color: #FFF;
+  font-size: 100%;
+  padding: 10px 20px;
+}
+
+#wikibody a,.wikitrail {
+  color: #006af7;
+}
+
+.breadcrumbs {
+  font-size: 90%;
+  color: #888;
+  border-bottom: 1px solid #e7e7e7;
+  margin: 8px 8px 5px 0;
+  padding: 5px 0 0;
+}
+
+#wikicmds {
+  float: right;
+  white-space: nowrap;
+  font-size: 95%;
+}
+
+#wikicmds ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#wikicmds li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#wikicmds li a {
+  text-decoration: none;
+  color: #999;
+  padding: 1px;
+}
+
+#wikicmds li a.createlinktext {
+  border-bottom: 0!important;
+}
+
+#wikicmds li a:hover {
+  color: #333;
+  border-bottom: 3px dotted rgba(0,0,0,0.05);
+}
+
+#wikibody .pagegroup a {
+  text-decoration: none;
+  color: #999;
+}
+
+#wikibody .pagegroup a:hover {
+  color: #777;
+}
+
+.pagetitle {
+  line-height: 1em;
+  font-size: 180%;
+  font-weight: 400;
+  margin: 0;
+}
+
+.wikiaction,.wikimessage {
+  font-size: 90%;
+  color: #333;
+  font-weight: 700;
+  min-height: 21px;
+  border-radius: 5px 5px;
+  padding: .2em .2em .2em 30px;
+}
+
+.wikiaction {
+  box-shadow: 0 1px 0 #edd400;
+  margin-top: 0;
+  background: #fffbce url(images/dialog-information.png) no-repeat 2px 50%;
+}
+
+.wikimessage {
+  box-shadow: 0 1px 0 #f57900;
+  background: #ffe7c6 url(images/dialog-error.png) no-repeat 2px 50%;
+  margin: 4px 0 6px;
+}
+
+#wikitext {
+  line-height: 1.33em;
+  margin: 12px 0;
+}
+
+#wikitext table {
+  font-size: 100%;
+  line-height: 1.33em;
+}
+
+#wikiedit form {
+  width: 100%;
+  margin: 0;
+}
+
+#wikiedit textarea#text {
+  width: 100%;
+  background: url(images/grid.png) repeat scroll top right;
+}
+
+#wikitext div.preview {
+  max-height: 200px;
+  overflow: auto;
+  width: 98%;
+  border: 4px solid #ddd;
+  border-radius: 7px 7px;
+  margin: 1em 0;
+  padding: 0 0 0 .6em;
+}
+
+#wikitext ul.preview {
+  background: #deffde url(images/dialog-warning.png) no-repeat 5px 50%;
+  border-radius: 5px 0 0 5px;
+  min-height: 24px;
+  font-size: 75%;
+  color: #13661e;
+  box-shadow: 0 1px 0 #0a0;
+  list-style: none;
+  clear: both;
+  margin: .8em 0;
+  padding: 1px 0 1px 40px;
+}
+
+#wikitext ul.preview li {
+  margin: 0;
+  padding: 0;
+}
+
+#wikitext #quickref {
+  width: 99%;
+  font-size: 90%;
+  padding: .2em;
+}
+
+#quickref input[name="quickref"] {
+  margin-left: 3px;
+}
+
+#quickref input[name="quickref"]:checked + table {
+  display: table;
+}
+
+table.quickref {
+  width: 100%;
+  padding: 3px;
+}
+
+#wikifoot {
+  color: #eee;
+  text-align: right;
+  font-size: 85%;
+  line-height: 1.33em;
+  position: relative;
+  padding: 0 10px 10px;
+}
+
+#wikifoot .footnav {
+  color: #a5a2a5;
+  margin-bottom: .8em;
+}
+
+#wikihead a,#wikifoot .lastmod,#wikifoot .credits,#wikifoot .credits a {
+  color: #f7f7f7;
+  text-decoration: none;
+  text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+#wikifoot .credits a:hover {
+  text-shadow: 0 0 3px #FFF;
+}
+
+#wikifoot .footnav a {
+  color: #848684;
+  text-decoration: none;
+  background: #FFF;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 .1em 0 rgba(0,0,0,0.2);
+  padding: 2px 9px;
+}
+
+#wikifoot .footnav a:hover {
+  color: #666;
+  box-shadow: 0 .15em .2em rgba(0,0,0,0.3);
+}
+
+#wikifoot .credits {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 90%;
+  min-height: 31px;
+  vertical-align: middle;
+  line-height: 0;
+  width: 155px;
+  text-align: left;
+  padding: 1em;
+}
+
+#wikifoot .credits img {
+  border: 0;
+  vertical-align: text-bottom;
+  margin-right: .2em;
+}
+
+#wikifoot .credits a.skin {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 50%;
+  opacity: .5;
+}
+
+#wikifoot .credits a.skin:hover {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  opacity: 1;
+}
+
+#wikidiff .diffbox {
+  width: 100%;
+  border-left: 1px solid #d6d6b2;
+}
+
+#wikidiff .difftime {
+  background-color: #efefde;
+  color: #8c8a63;
+  padding: 1px 4px;
+}
+
+#wikidiff .difftime a {
+  text-decoration: none;
+  color: #313031;
+  border-bottom: 1px dotted #bbb;
+}
+
+#wikidiff .difftype {
+  padding-left: 4px;
+}
+
+#wikidiff .difftime a:hover {
+  background-color: #eee;
+  color: #555;
+}
+
+#wikidiff .diffdel {
+  padding-left: 5px;
+  border-left: 5px solid #ffdfde;
+}
+
+#wikidiff .diffadd {
+  padding-left: 5px;
+  border-left: 5px solid #deffde;
+}
+
+#wikidiff .diffmarkup {
+  font-size: 90%;
+}
+
+.diffmarkup {
+  line-height: 1.7em;
+}
+
+#wikidiff .diffmarkup ins {
+  background: #deffde;
+  border: 1px solid #0a0;
+  margin: 1px;
+  padding: 1px;
+}
+
+#wikidiff .diffmarkup del {
+  background: #ffdfde;
+  border: 1px solid #ce0000;
+  margin: 1px;
+  padding: 1px;
+}
+
+#wikidiff .diffrestore {
+  font-size: 75%;
+  margin: .5em 0 1.5em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: transparent url(images/points.png) repeat-x;
+}
+
+small {
+  font-size: 85%;
+  line-height: 1.5em;
+}
+
+#wikitext .markup {
+  border-spacing: 0!important;
+  border: 0!important;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.08);
+  background: url(images/grid.png)!important;
+}
+
+#wikitext .markup .markup1,#wikitext .markup .markup2 {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid rgba(0,0,0,0.3);
+  margin: 3px 1px;
+  padding: 5px;
+}
+
+#wikitext .horiz .markup2 {
+  border-radius: 0 3px 3px 0;
+  background: #FFF;
+}
+
+#wikitext .vert .markup2 {
+  border-radius: 0 0 3px 3px;
+  background: #FFF;
+}
+
+#wikitext .horiz .markup1 {
+  border-radius: 3px 0 0 3px;
+  background: transparent url(images/markup_horiz.png) no-repeat 98% 50%!important;
+  border-right: 0!important;
+}
+
+#wikitext .vert .markup1 {
+  border-radius: 3px 3px 0 0;
+  background: transparent url(images/markup_vert.png) no-repeat 99% 96%;
+  border-bottom: 0!important;
+  padding-bottom: 10px!important;
+}
+
+#wikibody .wikitrail {
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 8px;
+  font-size: 85%;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+  display: inline-block;
+  margin: 5px;
+  padding: 1px 4px;
+}
+
+#wikibody .wikitrail a:hover {
+  text-decoration: underline;
+}
+
+.frame h1,.frame h2,.frame h3,.frame h4,.frame h5,.frame h6 {
+  margin: .5em 0;
+}
+
+textarea,input,select {
+  margin: 3px 1px;
+  padding: 3px;
+}
+
+input[type="text"],input[type="password"],textarea {
+  -moz-box-sizing: border-box;
+}
+
+input[type="checkbox"],input[type="radio"] {
+  vertical-align: middle;
+}
+
+textarea,input[type="text"],input[type="password"],input[type="file"],input[type="button"],input[type="submit"],input[type="reset"],select {
+  background-color: #FFF;
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #cecfce;
+  color: #222;
+  margin: 2px 0;
+  padding: .2em;
+}
+
+input[type="text"],input[type="password"] {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08) inset;
+}
+
+input[type="text"]:hover,input[type="password"]:hover {
+  border-color: #999;
+}
+
+input[type="text"]:focus,input[type="password"]:focus {
+  box-shadow: 0 0 0 #FFF inset;
+  border-color: #4a92ff;
+}
+
+input[type="submit"]:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #111;
+}
+
+input.searchbox {
+  font-size: 105%;
+  color: #444;
+}
+
+input.searchbutton {
+  color: #FFF;
+  border: 1px solid #777;
+  padding-left: 24px;
+  background: #aaa url(images/search.png) no-repeat scroll 5px 50%;
+}
+
+input.searchbutton:hover {
+  background-color: #4a8eff;
+  color: #FFF;
+  border-color: #2959b5;
+}
+
+html,body,ul#menu,ul#menu ul.sub-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.header a,a.varlink,#wikibody a:hover,#wikibody .wikitrail a {
+  text-decoration: none;
+}
+
+.header li:hover a,ul#menu li a:hover,ul#menu li.active a,ul#menu li ul.sub-menu li a:hover {
+  color: #fff;
+}
+
+.leftmenu li.finished,ul#menu li.finished a,ul#menu li ul.sub-menu li.finished a {
+  text-decoration: line-through;
+}
+
+.leftmenu li.finished li{
+  padding-left: 4px;
+}
+
+.leftmenu li {
+  padding-left: 4px;
+}
+
+
+ul#menu li:first-of-type,ul#menu ul.sub-menu li {
+  margin-left: 0;
+}
+
+ul#menu li:hover ul.sub-menu,.cpp span.xtra {
+  display: block;
+}
+
+.login-default-box,.login-facebook-box,.register-default-box,.register-facebook-box {
+  display: inline-block;
+  width: 100%;
+  padding-left: 1%;
+  vertical-align: top;
+}
+
+div.faqtoc div.faq *,#wikicmds li a.createlink,#quickref input[name="quickref"] + table {
+  display: none;
+}
+
+div.faqtoc div.faq p.question *,#wikibody .pagegroup {
+  display: inline;
+}
+
+.cpp .kw1,.cpp .kw2,.cpp .kw4 {
+  color: #00f;
+}
+
+.cpp .kw3,.cpp .nu0 {
+  color: #00d;
+}
+
+.cpp .es0,.cpp .es1 {
+  color: #009;
+  font-weight: 700;
+}
+
+.cpp .es2,.cpp .es3,.cpp .es4 {
+  color: #609;
+  font-weight: 700;
+}
+
+.cpp .br0,.cpp .sy0 {
+  color: green;
+}
+
+.cpp .sy2,.cpp .sy3 {
+  color: #000040;
+}
+
+.cpp .nu6,.cpp .nu8,.cpp .nu12 {
+  color: #208080;
+}
+
+.cpp .nu16,.cpp .nu17,.cpp .nu18,.cpp .nu19 {
+  color: purple;
+}
+
+.cpp .me1,.cpp .me2 {
+  color: #078;
+}
+
+
+#wikileft li:hover a,#wikileft li a:hover,#wikileft a:hover,textarea {
+  color: #000;
+}
+
+@media only screen and max-width800px {
+  .header_left_box,.header .avatar {
+    float: none;
+  }
+
+  .header_right_box {
+    width: 100%;
+    background-color: #1E2029;
+  }
+
+  ul#menu li {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  ul#menu li a {
+    display: block;
+  }
+
+  ul#menu li ul.sub-menu {
+    display: block;
+    position: relative;
+    top: 0;
+  }
+
+  ul#menu li ul.sub-menu li {
+    font-size: 12px;
+    background-color: #4a4c55;
+  }
+
+  ul#menu li.active ul.sub-menu li {
+    background-color: #2C2F3B;
+  }
+
+  ul#menu ul.sub-menu {
+    padding-bottom: 0;
+  }
+}
+
+@media print {
+  body {
+    width: auto;
+    margin: 0;
+    padding: .5em;
+  }
+
+  #wikihead,#wikileft,#wikicmds,.footnav {
+    display: none;
+  }
+
+  #wikifoot {
+    padding: 2px;
+  }
+}

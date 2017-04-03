@@ -1,0 +1,9 @@
+<p align="justify">
+<p>Fl&iacute;per &eacute; um tipo de jogo onde uma bolinha de metal cai por um labirinto de caminhos at&eacute; chegar na parte  de baixo do labirinto. A quantidade de pontos que o jogador ganha depende do caminho que a bolinha  seguir.  O jogador pode controlar  o percurso  da bolinha  mudando  a posi&ccedil;&atilde;o de algumas portinhas do labirinto.  Cada portinha pode estar na posi&ccedil;&atilde;o 0, que significa virada para a esquerda, ou na posi&ccedil;&atilde;o 1 que quer dizer virada  para  a direita. Considere  o fl&iacute;per da figura abaixo,  que tem duas portinhas. A portinha P est&aacute; na posi&ccedil;&atilde;o 1 e a portinha R, na posi&ccedil;&atilde;o 0. Desse jeito, a bolinha vai cair pelo caminho B.&nbsp;</p>
+
+<p style="text-align: center;"><img title="Fliper1" src="http://i.imgur.com/QBeh8rq.png" alt="Fliper1" width="261" height="202" /></p>
+
+<p>Voc&ecirc; deve escrever um programa  que, dadas as posi&ccedil;&otilde;es das portinhas P e R, neste fl&iacute;per da figura, diga por qual dos tr&ecirc;s caminhos, A, B ou C, a bolinha vai cair! <br /> <br /><strong>Entrada </strong><br />A entrada &eacute; composta  por apenas  uma linha contendo  dois n&uacute;meros  P  e R, indicando  as posi&ccedil;&otilde;es das duas portinhas do fl&iacute;per da figura. <br /> <br /><strong>Sa&iacute;da </strong><br />A sa&iacute;da  do seu programa  deve ser tamb&eacute;m  apenas  uma  linha,  contendo  uma  letra  mai&uacute;scula  que indica o caminho  por onde a bolinha  vai cair:  &lsquo;A&rsquo;, &lsquo;B&rsquo; ou &lsquo;C&rsquo;. <br /> <br /><strong>Restri&ccedil;&otilde;es </strong><br />&bull; O n&uacute;mero P  pode ser 0 ou 1. O n&uacute;mero R pode ser 0 ou 1. <br /> <br /><strong>Exemplos</strong></p>
+
+<p><strong>Entrada </strong><br />1 0 <br /> <br /><strong>Sa&iacute;da </strong><br />B <br /> <br /><strong>Entrada </strong><br />0 0 <br /> <br /><strong>Sa&iacute;da </strong><br />C</p>
+
