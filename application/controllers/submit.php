@@ -214,7 +214,7 @@ class Submit extends Controller {
       
       $test = str_replace('in', '', $file);
       
-      $run_cmd = $grader_path . 'box';
+      $run_cmd = $grader_path . 'isolate';
       // Memory Limit
       // $run_cmd .= ' -m' . (1024 * $problem['memory_limit']);
       $run_cmd .= ' -f -a3'; // Limit to syscall     
@@ -232,7 +232,7 @@ class Submit extends Controller {
         $time_limit,
         $memory_limit
       ), $this->get_run_command($language)) . ' 2> /dev/null';
-            
+      echo $run_cmd;
       exec($run_cmd, $output, $retval);
       
       // reads the execution results      
