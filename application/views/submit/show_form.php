@@ -1,3 +1,9 @@
+<style>
+  .code-source {
+		border: 1px solid black;
+	}
+</style>
+
 <div class="content">
   <!-- echo out the system feedback (error and success messages) -->  
   <?php require VIEWS_PATH . '_templates/leftmenu.php'; ?>
@@ -22,10 +28,11 @@
           <option value="2">C++</option>
         </select>
         <h2> Código:</h2>
-        <textarea  id ="code_source" name="code_source"></textarea>        
-        <br/>
+				<div class="code-source">
+					<textarea id ="code_source" name="code_source"></textarea>        
+				</div>
+				<br/>
 
-        Obs: Para programas em Java, utilize "solucao" como nome da classe principal.
         <input type="hidden" name="problem_id" value="<?php echo $this->problem_id?>">
         <p align="center">          
           <input type="submit" name="submit" value="Submeter">

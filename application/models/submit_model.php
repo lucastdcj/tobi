@@ -119,5 +119,14 @@ class SubmitModel {
         
     return $query->rowCount() == 1;  	  
   }
+ 
+  public function add1ProblemToUser() {
+    $sql   = "UPDATE users SET users.num_problems = users.num_problems+1 WHERE users.user_id = :user_id";
+    $query = $this->db->prepare($sql);
+    $query->execute(array(      
+      ':user_id' => Session::get('user_id')
+    ));
+    return $query->rowCount() == 1;  	  
+  }
   
 }

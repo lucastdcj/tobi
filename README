@@ -5,4 +5,6 @@ sudo apt-get install mysql-server
 apt-get install php5 php5-mcrypt php5-common libapache2-mod-php5 php5-cli php5-mysql
 2 -) git clone xxx .
 
-3-)
+3-) Change the /etc/apache2/sites-available
+
+4-) Change the .htaccess

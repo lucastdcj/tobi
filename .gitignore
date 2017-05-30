@@ -1,4 +1,8 @@
 application/config/
+moe/
+public/codemirror/
+submission/
+vendor/
 *~
 *.swp
 

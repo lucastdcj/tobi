@@ -14,11 +14,8 @@ class RankingModel {
   
   public function getUsersOrdered() {
          
-    $sql   = "SELECT A.user_id, A.user_name, A.section_id, COUNT( DISTINCT B.problem_id ) AS problems
+    $sql   = "SELECT A.user_id, A.user_name, A.section_id, A.num_problems AS problems
     		FROM users AS A
-    		LEFT JOIN problem_user as B
-    		ON A.user_id = B.user_id
-    		GROUP BY B.user_id
     		ORDER BY A.section_id DESC, problems DESC, A.user_name;";
     $query = $this->db->prepare($sql);
     $query->execute();

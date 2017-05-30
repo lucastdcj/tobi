@@ -10,30 +10,30 @@
 </script>
 
 <div class="content">
-
     <!-- echo out the system feedback (error and success messages) -->
     <?php // $this->renderFeedbackMessages(); ?>
-    <h1 align="center"> Bem-vindo! </h1>
-    <div style="float: left; width: 500px; height: 480px; margin-left: 120px;border-style:solid; border-color: 000; padding-left: 10px; padding-right:10px; ">
+    <div class="main">
+      <h1 align="center"> Bem-vindo! </h1>
+      <div id="main-box">
+      <div id="main-box-left">
  
       <h2 align="center"> Como funciona? </h2>
       <p align="justify">
         TOBI (Treinamento para a Olimpíada Brasileira de Informática) é uma plataforma que contém todos 
-problemas da OBI e é organizado da seguinte maneira:<br /><br />
+problemas da OBI e é organizado da seguinte maneira:<br />
 <ul>
   <li> <p align="justify"> <b> Capítulo: </b> cada capítulo é composto por diversas seções, o usuário só pode acessar um
   capítulo quando terminou todas as seções do capítulo anterior. </li>
   <li> <p align="justify"> <b> Seção: </b> contém um texto introdutório sobre o assunto abordado nesta seção e problemas da OBI
   que podem ser resolvidos utilizando esta teoria.</p> </li>
   <li> <p align="justify"> <b> Problemas Obrigatórios: </b> problemas que precisam ser resolvidos para finalizar esta seção e avançar para a
-  próxima. Para cada problema é possível ver seu histórico de submissão e ao resolver o problema terá uma explicação
-  da solução esperada.</p> </li>
+  próxima. Para cada problema é possível ver seu histórico de submissão.</p> </li>
   <li> <p align="justify"> <b> Problemas Sugeridos: </b> são problemas opcionais que podem ser usados para aperfeiçoar o assunto.</p> </li>
 </ul> 
       </p>
     </div>
 
-    <div style="float: right; width: 500px; height: 480px; margin-right: 120px;border-style:solid; border-color: 000; padding-left: 10px; padding-right:10px; ">
+    <div id="main-box-right">
 
       <h2 align="center"> Como usar? </h2>
       <p align="justify">        
@@ -61,8 +61,8 @@ naquilo que tem mais dificuldade.</li></p>
             <li><a href="https://www.coursera.org/course/learning"> Learning How to Learn:</a> Powerful mental tools to help you master tough subjects </li>
             <li> <a href="http://contest-wiki.csc.kth.se/index.php/How_to_get_better%3F">How to get better? </a></li>
           </ol>
-      <br />
   </div>
-
+</div>
   </p>
+</div>
 </div>

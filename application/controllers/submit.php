@@ -85,8 +85,9 @@ class Submit extends Controller {
         
         // First we update that this user solved this problem
         Session::setArray('user_problems', $problem_id);        
-        $submit_model->addProblemUser($problem_id);
         $user_problems[$problem_id] = true;
+        $submit_model->addProblemUser($problem_id);
+        $submit_model->add1ProblemToUser();
       }
 
       // Now we have to check if the user has passed of section, i.e it was
@@ -214,7 +215,7 @@ class Submit extends Controller {
       
       $test = str_replace('in', '', $file);
       
-      $run_cmd = $grader_path . 'isolate';
+      $run_cmd = $grader_path . 'box';
       // Memory Limit
       // $run_cmd .= ' -m' . (1024 * $problem['memory_limit']);
       $run_cmd .= ' -f -a3'; // Limit to syscall     
@@ -232,10 +233,10 @@ class Submit extends Controller {
         $time_limit,
         $memory_limit
       ), $this->get_run_command($language)) . ' 2> /dev/null';
-      echo $run_cmd;
-      exec($run_cmd, $output, $retval);
       
-      // reads the execution results      
+			exec($run_cmd, $output, $retval);
+      
+			// reads the execution results      
       $run_result = array();
       foreach (explode("\n", file_get_contents($submission_path . 'result')) as $w) {
         $line                 = explode(':', $w);

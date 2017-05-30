@@ -1,6 +1,5 @@
-
-<h1 align="center"> Sua Submissão </h1>
-<div style="width:50%; margin-left: 25%; background-color: white;">
+<div class="main">
+  <h1 align="center"> Sua Submissão </h1>
   <pre class="prettyprint">
     <?php echo htmlspecialchars($this->submission_code); ?>
   </pre>

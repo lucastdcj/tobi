@@ -19,7 +19,7 @@
     </div>
     -->
     <div class='title-box'>    	
-        <a href="<?php echo URL; ?>">TOBI - Treinamento para a OBI</a>        
+        <a href="<?php echo URL; ?>">TOBI - Treinamento OBI</a>        
     </div>
 
     <div class="header">
@@ -47,7 +47,7 @@
             </li>
             
             <li <?php if (Session::get('user_logged_in') == true && Session::get('section_id') >= 10) { echo 'class = "finished"';} ?>>
-                <a href="#" title = "Estrutura de Dados I"><font color="green">Capítulo 2</font></a>
+                <a href="#" title = "Estrutura de Dados I"><font color="lightgreen">Capítulo 2</font></a>
                <ul class="sub-menu">
                  <li <?php if (Session::get('section_id') >= 7) { echo 'class = "finished"';} ?>>
                    <a href="<?php echo URL; ?>section/show/6">2.1 - Pilha e Fila</a>
@@ -61,7 +61,7 @@
                </ul>
            </li> 
             <li <?php if (Session::get('user_logged_in') == true && Session::get('section_id') >= 15) { echo 'class = "finished"';} ?>>
-                <a href="#" title = "Introdução a Técnicas de Algoritmos"><font color="blue">Capítulo 3</font></a>
+                <a href="#" title = "Introdução a Técnicas de Algoritmos"><font color="cadetblue">Capítulo 3</font></a>
                 <ul class="sub-menu">
                   <li <?php if (Session::get('section_id') >= 10) { echo 'class = "finished"';} ?>>
                     <a href="<?php echo URL; ?>section/show/9">3.1 - Ad-Hoc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>

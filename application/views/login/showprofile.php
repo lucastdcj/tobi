@@ -1,4 +1,5 @@
 <div class="content">
+  <div class="main">
     <h1>Your profile</h1>
 
     <!-- echo out the system feedback (error and success messages) -->
@@ -13,4 +14,5 @@
     <div>
         Your account type is: <?php echo Session::get('user_account_type'); ?>
     </div>
+  </div>
 </div>

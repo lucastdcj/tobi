@@ -1,5 +1,5 @@
 <div class="content">
-
+  <div class="main">
     <!-- echo out the system feedback (error and success messages) -->
     <?php $this->renderFeedbackMessages(); ?>
 
@@ -18,5 +18,5 @@
         |
         <a href="<?php echo URL; ?>login/requestpasswordreset">Esqueci minha senha</a>
     </div>
-
+  </div>
 </div>

@@ -6,9 +6,11 @@
     <?php 
       $file_path = SECTIONS_PATH . $this->section_id . '/index.php';   
        if (file_exists($file_path)) {
-         echo '<div style="float: left; width: 700px;  margin-left: 120px; padding-left: 10px; padding-right:10px; ">'; 
+         echo '<div class="main">';
          include $file_path; 
-         echo '</div>';
+         echo '
+            </div>
+          </div>';
        } else {
          $address = "http://www.ic.unicamp.br/~maratona/obi/index.php?n=Secao." . $this->section_id;
          echo '
@@ -18,7 +20,6 @@
               <h1 align="center">
                 <a href = ' . $address . '> Editorial </a>
               </h1>
-          </div>
-      </div>    ';
+      </div>';
       }?>
 </div>
