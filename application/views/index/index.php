@@ -23,7 +23,7 @@
 problemas da OBI e é organizado da seguinte maneira:<br />
 <ul>
   <li> <p align="justify"> <b> Capítulo: </b> cada capítulo é composto por diversas seções, o usuário só pode acessar um
-  capítulo quando terminou todas as seções do capítulo anterior. </li>
+  capítulo quando termiar todas as seções do capítulo anterior. </li>
   <li> <p align="justify"> <b> Seção: </b> contém um texto introdutório sobre o assunto abordado nesta seção e problemas da OBI
   que podem ser resolvidos utilizando esta teoria.</p> </li>
   <li> <p align="justify"> <b> Problemas Obrigatórios: </b> problemas que precisam ser resolvidos para finalizar esta seção e avançar para a
@@ -52,8 +52,7 @@ mostram que é mais efetivo a longo termo tentar bastante, errar, ficar o máxim
 puder em um exercício.</li></p>
 
         <li><p align="justify"><b> Estude o que tiver mais dificuldade: </b> Depois de um tempo é normal dominar muitos
-assuntos e ficar repetindo estes assuntos, mas é muito importante focar mais
-naquilo que tem mais dificuldade.</li></p>
+assuntos e ficar repetindo estes assuntos, mas é muito importante focarnaquilo que tem mais dificuldade.</li></p>
       </ol> 
       </p>
         <b>Fontes:</b>

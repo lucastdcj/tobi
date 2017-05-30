@@ -2,6 +2,9 @@ application/config/
 moe/
 public/codemirror/
 submission/
+downloads/
+statistics/run_statistics.sh
+phpBB3/
 vendor/
 *~
 *.swp
