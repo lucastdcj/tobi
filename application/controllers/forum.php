@@ -1,10 +1,10 @@
 <?php
 
 /**
- * Class Index
+ * Class Forum
  * The index controller
  */
-class Index extends Controller {
+class Forum extends Controller {
   /**
    * Construct this object by extending the basic Controller class
    */
@@ -16,7 +16,8 @@ class Index extends Controller {
    * Handles what happens when user moves to URL/index/index, which is the same like URL/index or in this
    * case even URL (without any controller/action) as this is the default controller-action when user gives no input.
    */
-  function index() {
-    $this->view->render('index/index');
+  function show() {
+    Auth::handleSection(1);
+    $this->view->render('forum/show');
   }
 }

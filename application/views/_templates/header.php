@@ -163,27 +163,29 @@
           
 	  <?php if (Session::get('user_logged_in') == true):?>
 	    <ul id="menu">
-	        <li>
-                   <a href="<?php echo URL; ?>ranking/show" title = "Ranking"> Classificação </a>
-                </li>
-                <li <?php if ($this->checkForActiveController($filename, "login")) { echo ' class="active" '; } ?> >
-                    <a href="<?php echo URL; ?>login/showprofile">Minha Conta</a>
-                    <ul class="sub-menu">
-                        <li <?php if ($this->checkForActiveController($filename, "login")) { echo ' class="active" '; } ?> >
-                            <a href="<?php echo URL; ?>login/editusername">Alterar Usuário</a>
-                        </li>
-                        <li <?php if ($this->checkForActiveController($filename, "login")) { echo ' class="active" '; } ?> >
-                            <a href="<?php echo URL; ?>login/edituseremail">Alterar E-mail</a>
-                        </li>
-                        <li <?php if ($this->checkForActiveController($filename, "login")) { echo ' class="active" '; } ?> >
-                            <a href="<?php echo URL; ?>login/logout">Sair</a>
-                        </li>
-                    </ul>
-                </li>
+	       <li>
+					 <a href="<?php echo URL; ?>forum/show" title = "Forum"> Fórum </a>
+				</li>
+				 <li>
+					 <a href="<?php echo URL; ?>ranking/show" title = "Ranking"> Classificação </a>
+				</li>
+				<li <?php if ($this->checkForActiveController($filename, "login")) { echo ' class="active" '; } ?> >
+						<a href="<?php echo URL; ?>login/showprofile">Minha Conta</a>
+						<ul class="sub-menu">
+								<li <?php if ($this->checkForActiveController($filename, "login")) { echo ' class="active" '; } ?> >
+										<a href="<?php echo URL; ?>login/editusername">Alterar Usuário</a>
+								</li>
+								<li <?php if ($this->checkForActiveController($filename, "login")) { echo ' class="active" '; } ?> >
+										<a href="<?php echo URL; ?>login/edituseremail">Alterar E-mail</a>
+								</li>
+								<li <?php if ($this->checkForActiveController($filename, "login")) { echo ' class="active" '; } ?> >
+										<a href="<?php echo URL; ?>login/logout">Sair</a>
+								</li>
+						</ul>
+				</li>
 	      </ul>                
-            <?php endif; ?>
-          
-        </div>
+		<?php endif; ?>
+</div>
         
-        <div class="clear-both"></div>
-    </div>
+				<div class="clear-both"></div>
+</div>

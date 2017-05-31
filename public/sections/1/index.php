@@ -97,24 +97,20 @@ Ao clicar neste ícone você será redirecionado para a tela de submissão, onde
     </pre>
   A entrada desse programa é t, a quantidade de pessoas que clicaram no teceiro link e como desejamos saber quantas
   pessoas clicaram no primeiro link, a saida é 4*t.
-  <pre class="prettyprint">
+  <pre class="prettyprint"><?php echo htmlspecialchars('
+// Biblioteca necessária para podermos usar as funções printf, scanf
+#include <stdio.h>
 
-    <?php echo htmlspecialchars('
-    // Biblioteca necessária para podermos usar as funções printf, scanf
-    #include <stdio.h>
-
-    int main() {
-      // Declara uma variavel do tipo inteiro
-      int x;
-      // Le um inteiro e armazena em x 
-      scanf("%d",&x);
-      // Imprime o valor de x multiplicado por 4
-      // poderiamos tambem armazenar o resultado em uma outra variavel
-      printf("%d\n",4*x);
-      return 0;
-    }
-    ');?>   
-  </pre>
+int main() {
+  // Declara uma variavel do tipo inteiro
+  int x;
+  // Le um inteiro e armazena em x 
+  scanf("%d",&x);
+  // Imprime o valor de x multiplicado por 4
+  // poderiamos tambem armazenar o resultado em uma outra variavel
+  printf("%d\n",4*x);
+  return 0;
+}');?></pre>
 <br />
 <h3> Cometa </h3>
   <p align="justify">
@@ -131,20 +127,16 @@ sabendo que este cometa passa nos anos 1986 + 76*k (k &gt;= 0). Logo temos que a
 teremos:
 (5 + 1)/2 = 3, (5 + 2)/3 = 2, (7 + 2)/3 = 3, (4 + 1)/2 = 2
   Note que os resultados agora foram arredondados para cima e a divisão exata continua com o valor correto.
-  <pre class="prettyprint">
+  <pre class="prettyprint"><?php echo htmlspecialchars('
+#include <stdio.h>
 
-    <?php echo htmlspecialchars('
-    #include <stdio.h>
-
-    int main() {
-      int a;
-      scanf(" %d",&a);
-      int k = ((a + 1) - 1986 + 76 - 1)/76;
-      printf("%d\n",1986 + 76*k);
-      return 0;
-    }  
-    ');?>   
-  </pre>
+int main() {
+  int a;
+  scanf(" %d",&a);
+  int k = ((a + 1) - 1986 + 76 - 1)/76;
+  printf("%d\n",1986 + 76*k);
+  return 0;
+}');?></pre>
 
 </p>
   <script src="http://olimpiada.ic.unicamp.br/tobi/public/highlighter/prettify.js"></script>

@@ -16,7 +16,6 @@ class Ranking extends Controller {
   function show() {    	  
     $ranking_model = $this->loadModel('Ranking');
     $this->view->users= $ranking_model->getUsersOrdered();
-        
     $this->view->render('ranking/show');	  
   }
   

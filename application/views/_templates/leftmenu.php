@@ -61,13 +61,13 @@
             echo '<img src="' . URL . 'public/img/icons/history_gray.png" title ="Ver Submissões">';
           }
           
-//          	  if (isset($user_problems[$value->problem_id])) {
-//          	    echo '<a href="' . URL .'problem/show_solution/' . $this->section_id . '/' . $value->problem_id .'">';
-//          	    echo '<img src="' . URL . 'public/img/icons/solution.png" title="Solução do Problema">';
-//          	    echo '</a>';
-//          	  } else {
-//          	    echo '<img src="' . URL . 'public/img/icons/solution_gray.png" title="Solução do Problema">';
-//          	  }
+       	  if (isset($user_problems[$value->problem_id])) {
+       	    echo '<a href="' . URL .'problem/show_solution/' . $this->section_id . '/' . $value->problem_id .'">';
+       	    echo '<img src="' . URL . 'public/img/icons/solution.png" title="Solução do Problema">';
+       	    echo '</a>';
+       	  } else {
+       	    echo '<img src="' . URL . 'public/img/icons/solution_gray.png" title="Solução do Problema">';
+      	  }
                           
           echo '<a href="' . URL .'problem/show/' . $this->section_id . '/' . $value->problem_id . '">';
           echo $value->problem_name;			  
