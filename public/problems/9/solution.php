@@ -1,6 +1,4 @@
-<h1 align="center">Solução - Cometa</h1>
-
-<h2> Explicação </h2>
+<h1 align="center">Solução - Corrida</h1>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKAtC08zkhM" frameborder="0" allowfullscreen></iframe>
 <br />
 Neste problema desejamos saber o resto da divisão de um número por outro. Para isso em C/C++ usamos o operador %, por exemplo: 7 % 2 = 1; 9 % 3 = 0; 13 % 10 = 3 
