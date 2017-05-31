@@ -1,4 +1,4 @@
-<h1 align="center">Soluçã- Busca na Internet</h1>
+<h1 align="center">Solução - Busca na Internet</h1>
 
 Seja t1, t2 e t3 a quantidade de cliques no primeiro, segundo e terceiro link respectivamente.
 Do enunciado temos que:
@@ -20,6 +20,5 @@ int main() {
 }');?>
 </pre>
 
-<script src="http://olimpiada.ic.unicamp.br/tobi/public/highlighter/prettify.js"></script>
+<script src="http://93.188.167.1/public/highlighter/prettify.js"></script>
 <script>prettyPrint();</script>
-
