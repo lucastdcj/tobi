@@ -20,7 +20,7 @@ localizaç&#245;es a oeste e a sul por coordenadas negativas.</p>
 
 
 
-<p><img src="https://www.spoj.pl/content/wanderley:SUPERMER.jpg"/></p>
+<p><img src="../../../wanderley:SUPERMER.jpg"/></p>
 
 <p align="center">Parte do mapa de Planalto</p>
 
