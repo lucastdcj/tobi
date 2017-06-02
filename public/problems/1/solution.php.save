@@ -1,0 +1,21 @@
+<h1 align="center">Solução - Busca na Inrnet <h1/>
+
+Seja t1, t2 e t3 a quantidade de cliques no primeiro, segundo e terceiro link respectivamente. 
+Do enunciado temos que:
+
+
+<pre>
+      t3 = t;
+      t2 = 2*t3 = 2*t;
+      t2 = t1/2 logo t1 = 2*t2 = 2*(2*t) = 4*t
+</pre>
+
+<pre class="code">
+  int main() {
+    int x;
+    scanf(" %d",&x);
+    printf("%d\n",4*x);
+    return 0;
+  }
+</pre>
+ de cliques no
