@@ -21,7 +21,6 @@ class Section extends Controller {
   }
   
   function show($section_id) {
-    Auth::handleSection($section_id); 	  
     $problem_model = $this->loadModel('Problem');    
     
     $this->view->section_id = $section_id;

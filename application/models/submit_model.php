@@ -72,7 +72,8 @@ class SubmitModel {
     		     submission_language,
     		     submission_runtime,
     		     submission_memory,
-    		     submission_status,
+						 submission_status,
+						 submission_wrong_test,
     		     submission_time    		     
     	             FROM submissions
     	             WHERE problem_id = :problem_id AND user_id = :user_id

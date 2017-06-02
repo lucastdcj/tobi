@@ -12,7 +12,7 @@ possível colar as fotos na página.</p>
 <p>Por exemplo, cada página pode ser 5×7, e duas fotos são 3×4. Nesse caso, é possível colar as duas fotos:</p>
 
 <center> 
-  <img src="task_images/2012f2p2_album.png" width="170px" height="230px">
+  <img src="http://93.188.167.1/public/problems/20/2012f2p2_album.png" width="170px" height="230px">
 </center>
 
 <h3>Entrada</h3>

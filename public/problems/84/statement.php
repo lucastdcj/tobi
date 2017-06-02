@@ -23,7 +23,7 @@ dígitos. Para convertê-los de volta para dígitos, a maioria dos
 telefones tem letras nas suas teclas:
 
 <center>
-<img src="task_images/2008f1pj_telefone2.png" width="200">
+<img src="http://93.188.167.1/public/problems/84/2008f1pj_telefone2.png" width="200">
 </center>
 
 

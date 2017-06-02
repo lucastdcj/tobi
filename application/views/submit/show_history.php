@@ -62,6 +62,7 @@ function convert_language($id) {
       	  <td> Data </td>
       	  <td> Linguagem </td>
       	  <td> Resultado </td>
+      	  <td> Teste Errado </td>
       	  <td> Tempo de Execução </td>      	  
       	  <td> Memória </td>
       	</tr>
@@ -79,6 +80,10 @@ function convert_language($id) {
       	    
       	    echo '<td>';
       	    echo convert_status($value->submission_status);
+      	    echo '</td>';
+						
+						echo '<td>';
+      	    echo $value->submission_wrong_test;
       	    echo '</td>';
       	    
       	    echo '<td>';

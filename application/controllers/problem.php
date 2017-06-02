@@ -13,7 +13,6 @@ class Problem extends Controller {
   }
     
   function show($section_id, $problem_id) {
-    Auth::handleSection($section_id); 	  
     $problem_model = $this->loadModel('Problem');
         
     $this->view->problem_id = $problem_id;
