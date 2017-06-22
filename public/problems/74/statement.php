@@ -9,7 +9,7 @@ ilustra uma configuração original com três linhas e quatro colunas, a posiç�
 (intercâmbio das colunas 1 e 4), e a posição das cadeiras após mais uma mudança (intercâmbio das linhas 2 e
 3).</p>
 <center> 
-  <img src="task_images/2009f2p2_cadeiras.png" width="500px" height="210px">
+  <img src="http://www.t-obi.com/public/img/problems/74/2009f2p2_cadeiras.png" width="500px" height="210px">
 </center>
 <p>Ao final da aula, como era de se esperar, a numeração das cadeiras ficou bem bagunçada. O problema é
 que a próxima aula é de Matemática, e o professor é muito exigente, e quer começar a aula com as cadeiras
