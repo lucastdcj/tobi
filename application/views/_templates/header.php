@@ -30,7 +30,7 @@
     </div>
     -->
     <div class='title-box'>    	
-        <a href="<?php echo URL; ?>">TOBI - Treinamento OBI</a>        
+        <a href="<?php echo URL; ?>"><img src="../../../public/img/logo.png" height="60px"></img></a>        
     </div>
 
     <div class="header">
