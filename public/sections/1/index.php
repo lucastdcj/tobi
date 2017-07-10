@@ -2,13 +2,11 @@
 <h1> 1.1 - Compilando meu primeiro programa </h1>
 <br />
 <h2> Vídeo </h2>
-<b>Autor: </b> Gabriel Duarte
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eXWy7pxwoGs" frameborder="0" allowfullscreen></iframe>
 <br />
 <hr>
 <br />
 <h2> Texto </h2>
-<b>Autor: </b> Lucas Castro
 <h3> Indice </h3>
 <ol>
   <li> <a href="#objetivo"> Objetivo </a></li>
