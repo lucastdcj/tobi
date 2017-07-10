@@ -64,7 +64,7 @@
                    <a href="<?php echo URL; ?>section/show/6">2.1 - Pilha e Fila</a>
                  </li>
                  <li <?php if (Session::get('section_id') >= 8) { echo 'class = "finished"';} ?>>
-                   <a href="<?php echo URL; ?>section/show/7">2.2 -Set e Map</a>
+                   <a href="<?php echo URL; ?>section/show/7">2.2 - Set e Map</a>
                  </li>
                  <li <?php if (Session::get('section_id') >= 9) { echo 'class = "finished"';} ?>>
                    <a href="<?php echo URL; ?>section/show/8">2.3 - STL++</a>
