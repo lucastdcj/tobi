@@ -21,6 +21,7 @@ int main() {
     printf("N\n"); 
   }
   return 0; 
-}
-);?></pre>
+});?></pre>
 
+<script src="http://www.t-obi.com/public/highlighter/prettify.js"></script>
+<script>prettyPrint();</script>
