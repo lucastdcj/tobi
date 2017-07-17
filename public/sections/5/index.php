@@ -1,11 +1,12 @@
 <h1> 1.5 - Função e Ordenação</h1>
 <h2> Material </h2>
 <a href="http://noic.com.br/informatica/curso-noic-de-informatica/aula-4-funcoes/"> Funções - NOIC </a> <br>
+<a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html"> Recursão - IME USP </a> <br>
 <a href="https://www.ime.usp.br/~pf/algoritmos/aulas/ordena.html"> Ordenação: algoritmos elementares</a> <br>
+<a href="https://www.ime.usp.br/~pf/algoritmos/aulas/mrgsrt.html"> Merge Sort - IME USP</a> <br>
+<a href="https://www.ime.usp.br/~pf/algoritmos/aulas/quick.html"> Quick Sort - IME USP</a> <br>
 <a href="https://pt.wikipedia.org/wiki/Insertion_sort"> Insertion Sort - Wikipedia</a> <br>
 <a href="https://pt.wikipedia.org/wiki/Bubble_sort"> Bubble Sort - Wikipedia</a> <br>
-<a href="https://pt.wikipedia.org/wiki/Merge_sort"> Merge Sort - Wikipedia</a> <br>
-<a href="https://pt.wikipedia.org/wiki/Quicksort"> Quick Sort - Wikipedia</a> <br>
 <a href="http://en.cppreference.com/w/cpp/algorithm/sort"> Sort C++ Reference (inglês)</a> <br>
 
 <h2> Problema Exemplo </h2>
