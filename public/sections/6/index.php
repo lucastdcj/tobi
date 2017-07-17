@@ -20,18 +20,20 @@ int main() {
   int n; scanf(" %d", &n);
   queue<int> q;
   int aux = 0;
+  // Primeiro adicionamos 4 elementos.
   for (int i = 0; i < 4; i++, n--) {
     int acao; scanf(" %d", &acao);
     q.push(acao);
     aux += acao;
   }
-
+  // A variável ans vai manter nosso resultado.
   int ans = aux;
   while (n--) {
     int acao; scanf(" %d", &acao);
+    // Subtrai o último elemento e soma o novo elemento.
     aux = aux + acao - q.front();
-    q.pop();
-    q.push(acao);
+    q.pop(); // Remove o elemento.
+    q.push(acao); // Adiciona um novo elemento.
     ans = max(ans, aux);    
   }
   printf("%d\n",ans);
