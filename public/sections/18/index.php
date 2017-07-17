@@ -1,7 +1,4 @@
 <div id='wikitext'>
-  <pre class='escaped'>
-Autor: Lucas Tiago de Castro Jesus
-</pre>
   <div class='vspace'></div>
   <h2>Texto Introdutório</h2>
   <p>O problema <em> Árvore geradora mínima em grafos </em> é, resumidamente: tendo um grafo não-direcional com custos nas arestas, obter um subconjunto destas que conecte todos os vértices do
