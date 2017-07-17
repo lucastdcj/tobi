@@ -9,7 +9,15 @@
 <a href="http://en.cppreference.com/w/cpp/algorithm/sort"> Sort C++ Reference (inglês)</a> <br>
 
 <h2> Problema Exemplo </h2>
-<b> Tetris:</b> Neste problema é dado um campeonato com os nomes e pontos dos participantes e pede para imprimir o tabuleiro 
+<b> Fatorial:</b> Escreva uma função recursiva que imprima o fatorial de um número.
+<pre class="prettyprint"><?php echo htmlspecialchars('
+// Note que poderia ser feito com um for apenas, mas é bom para treinar a ideia de recursão.
+int fatorial(int x) {
+  if (x == 0) return 1;
+  return x * fatorial(x - 1);
+}');?></pre>
+
+<b> <a href="http://www.t-obi.com/problem/show/5/119">Tetris:</a></b> Neste problema é dado um campeonato com os nomes e pontos dos participantes e pede para imprimir o tabuleiro 
 final, a ideia é simples, mas é muito bom para treinar o uso de algumas funções já definidas.
 Ordenação: algoritmos elementares
 
