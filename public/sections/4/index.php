@@ -4,7 +4,7 @@
 <a href="http://olimpiada.ic.unicamp.br/extras/cursoC/Cap07-Vetores-texto.pdf"> Vetores - Arnaldo V. Moura, Daniel F. Ferber</a> <br>
 
 <h2> Problema Exemplo: </h2>
-<b>Caçadores de Mitos:</b> Neste problema são dadas diversas coordenadas e queremos saber se existe alguma coordenada repetida.
+<b><a href="http://www.t-obi.com/problem/show/4/76">Caçadores de Mitos:</a></b> Neste problema são dadas diversas coordenadas e queremos saber se existe alguma coordenada repetida.
 Para resolver, basta mantermos uma matriz (caiu[MAXN][MAXN]) de dimensões suficientemente grandes (MAXN > 500), onde caiu[i][j] = 0 indica 
 que um raio não caiu na posição i, j e caiu[i][j] = 1 indica que um raio já caiu naquela posição.
   
