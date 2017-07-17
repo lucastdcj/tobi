@@ -1,10 +1,10 @@
 <h1>2.1 - Pilha e Fila</h1>
 <h2> Material </h2>
-<a href="https://www.ime.usp.br/~pf/algoritmos/aulas/pilha.html"> Pilhas - IME USP </a> <br>
-<a href="https://www.ime.usp.br/~pf/algoritmos/aulas/fila.html"> Fila - IME USP </a> <br>
+<a href="https://www.ime.usp.br/~pf/algoritmos/aulas/pilha.html"> Pilhas - IME USP</a> <br>
+<a href="https://www.ime.usp.br/~pf/algoritmos/aulas/fila.html"> Fila - IME USP</a> <br>
 <a href="http://www.cplusplus.com/reference/queue/queue/"> Queue - C++ Reference (inglês)</a> <br>
 <a href="http://www.cplusplus.com/reference/stack/stack/"> Stack - C++ Reference (inglês)</a> <br>
-<a href="http://noic.com.br/informatica/curso-noic-de-informatica/aula-6-estruturas-de-dados-i-explorando-o-c/"> Pilha e Filha - NOIC </a> <br>
+<a href="http://noic.com.br/informatica/curso-noic-de-informatica/aula-6-estruturas-de-dados-i-explorando-o-c/"> Pilha e Filha - NOIC</a> <br>
 
 <h2> Problema Exemplo </h2>
 <b> <a href="http://www.t-obi.com/problem/show/6/81"> Ações na Bolsa </a>: </b> Neste problema é dado uma sequência de valores e 
