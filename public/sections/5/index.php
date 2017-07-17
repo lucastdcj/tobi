@@ -17,6 +17,7 @@ int fatorial(int x) {
   return x * fatorial(x - 1);
 }');?></pre>
 
+<br>
 <b> <a href="http://www.t-obi.com/problem/show/5/119">Tetris:</a></b> Neste problema é dado um campeonato com os nomes e pontos dos participantes e pede para imprimir o tabuleiro 
 final, a ideia é simples, mas é muito bom para treinar o uso de algumas funções já definidas.
 Ordenação: algoritmos elementares
