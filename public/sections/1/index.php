@@ -1,40 +1,26 @@
 
 <h1> 1.1 - Compilando meu primeiro programa </h1>
 <br />
-<h2> Vídeo </h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eXWy7pxwoGs" frameborder="0" allowfullscreen></iframe>
+Nesta seção você irá encontrar referências para aprender o que é algoritmo, o que é um código-fonte,
+como compilá-lo e os comandos básicos de C. Antes de começar, assista aos 5 primeiros vídeos do treinamento Saci: <br/>
+<h2> Material </h2>
+<a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_1"> Aula 1 - Introdução</a> <br>
+<a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_2"> Aula 2 - O primeiro programa, com o comando de escrita printf</a> <br>
+<a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_3"> Aula 3 - Mais sobre o comando de escrita printf</a> <br>
+<a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_4"> Aula 4 - Declaração de variáveis e comando de atribuição</a> <br>
+<a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_5"> Aula 5 - Comando de leitura scanf</a> <br>
 <br />
 <hr>
 <br />
 <h2> Texto </h2>
 <h3> Indice </h3>
 <ol>
-  <li> <a href="#objetivo"> Objetivo </a></li>
-  <li> <a href="#algoritmo"> O que é um algoritmo? </a> </li>
   <li> <a href="#compilar"> Como executar/compilar um código </a> </li>
   <li> <a href="#ideone"> Alternativa: ideone </a></li>
   <li> <a href="#comandos"> Comandos Básicos de C/C++ </a></li>
   <li> <a href="#ctocpp"> C->C++ </a></li>
   <li> <a href="#tobi"> Submetendo no TOBI </a></li>
 </ol>
-
-<a name="objetivo"></a>
-<h2> 1 - Objetivo </h2>
-
-<p align="justify">
-Nesta seção você irá encontrar referências para aprender o que é algoritmo, o que é um código-fonte,
-como compilá-lo e os comandos básicos de C. Sugiro que não avance para a próxima seção até dominar
-estes conceitos. <br />
-
-<br />
-<a name="algoritmo"></a>
- <h2> 2 - O que é um algoritmo? </h2>
-<ul> 
-  <li> [1] <a href = "http://olimpiada.ic.unicamp.br/tobi/public/sections/1/parte_1.pdf"> Algoritmo </a> material usado na semana olímpica.</li>
-</ul>
-
-<br />
-
 <a name="compilar"></a>
 <h2> 3 - Como executar/compilar um código </h2> 
 Os dois videos abaixo são suficientes para poder compilar e executar seu primeiro programa no Windows. <br />
