@@ -9,11 +9,9 @@ como compilá-lo e os comandos básicos de C. Antes de começar, assista aos 5 p
 <a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_3"> Aula 3 - Mais sobre o comando de escrita printf</a> <br>
 <a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_4"> Aula 4 - Declaração de variáveis e comando de atribuição</a> <br>
 <a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_5"> Aula 5 - Comando de leitura scanf</a> <br>
-<br />
-<hr>
-<br />
-<h2> Texto </h2>
-<h3> Indice </h3>
+
+Agora que você aprendeu um pouco dos conceitos básicos usando Javascript, leia as instruções abaixo para como fazer o mesmo na linguagem C. Note que
+tudo  muito similar, caso você tenha qualquer dúvida em como fazer em C, por favor, perguntem no fórum.
 <ol>
   <li> <a href="#compilar"> Como executar/compilar um código </a> </li>
   <li> <a href="#ideone"> Alternativa: ideone </a></li>
