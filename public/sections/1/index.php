@@ -42,7 +42,7 @@ o seu código com esta entrada.
 <a name="comandos"></a>
 <h2> Comandos Básicos de C/C++ </h2>
 <ul> 
-  <li> [4] <a href ="http://t-obi.com/public/sections/1/parte_2.pdf"> Comandos Básicos </a> material usado na semana olímpica.</li>
+  <li> <a href ="http://t-obi.com/public/sections/1/parte_2.pdf"> Comandos Básicos </a> material usado na semana olímpica.</li>
 </ul>
 
 <a name="tobi"></a>
@@ -79,26 +79,17 @@ int main() {
 <h3> Cometa </h3>
   <p align="justify">
   <b> Solução </b> Este problema é um pouco mais complicado, dado um ano a, desejamos saber qual o próximo ano que passará um cometa
-sabendo que este cometa passa nos anos 1986 + 76*k (k &gt;= 0). Logo temos que achar o menor k, tal que 1986 + 76*k &gt;= a + 1.
-  <pre>
-    1986 + 76*k >= a + 1;
-    k >= (a + 1) - 1986;
-    k >= ((a + 1) - 1986)/76;
-  </pre>
-  Agora entra um truque de programação, em C/C++ quando fazemos a divisão de dois inteiros o resultado é arredondado para baixo, ou seja,
-5/2 = 2, 5/3 = 1, 7/3 = 2, 4/2 = 2...
-  Mas nesse caso desejamos arredondar o resultado para cima, então o que podemos fazer é tranformar a divisão a/b em (a + b -1)/b, portanto
-teremos:
-(5 + 1)/2 = 3, (5 + 2)/3 = 2, (7 + 2)/3 = 3, (4 + 1)/2 = 2
-  Note que os resultados agora foram arredondados para cima e a divisão exata continua com o valor correto.
+sabendo que este cometa passa nos anos 1986 + 76*k (k &gt;= 0). Logo temos que achar o menor k, tal que 1986 + 76*k &gt; a.
+    Em C/C++, usando variáveis inteiras, uma divisão sempre é arredondada para baixo, portanto, 3 / 2 = 1, 10  / 3 = 3. Logo,
+    (a - 1986) / 76 dará o último k tal que o cometa passou, então nossa resposta será simplesmente 1986 + 76 * (k + 1).
   <pre class="prettyprint"><?php echo htmlspecialchars('
 #include <stdio.h>
 
 int main() {
   int a;
   scanf(" %d",&a);
-  int k = ((a + 1) - 1986 + 76 - 1)/76;
-  printf("%d\n",1986 + 76*k);
+  int k = (a - 1986) / 76;
+  printf("%d\n", 1986 + 76 * (k + 1));
   return 0;
 }');?></pre>
 
