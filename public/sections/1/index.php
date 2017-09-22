@@ -10,8 +10,7 @@ como compilá-lo e os comandos básicos de C. Antes de começar, assista aos 5 p
 <a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_4"> Aula 4 - Declaração de variáveis e comando de atribuição</a> <br>
 <a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_5"> Aula 5 - Comando de leitura scanf</a> <br>
 
-Agora que você aprendeu um pouco dos conceitos básicos usando Javascript, leia as instruções abaixo para como fazer o mesmo na linguagem C. Note que
-tudo  muito similar, caso você tenha qualquer dúvida em como fazer em C, por favor, perguntem no fórum.
+Agora que você aprendeu um pouco dos conceitos básicos usando Javascript, leia as instruções abaixo para como fazer o mesmo em C/C++.
 <ol>
   <li> <a href="#compilar"> Como executar/compilar um código </a> </li>
   <li> <a href="#ideone"> Alternativa: ideone </a></li>
@@ -21,22 +20,19 @@ tudo  muito similar, caso você tenha qualquer dúvida em como fazer em C, por f
 </ol>
 <a name="compilar"></a>
 <h2> 3 - Como executar/compilar um código </h2> 
-Os dois videos abaixo são suficientes para poder compilar e executar seu primeiro programa no Windows. <br />
-<ul>
-  <li> [2] <a href = "https://www.youtube.com/watch?v=LfIS1YQcZTA"> Instalando o Code::Blocks no Windows</a> por André Santanchè</li>
-  <li> [3] <a href = "https://www.youtube.com/watch?v=CrPfMRXObCs"> Escrevendo e Compilando um Programa em C</a> por André Santanchè</li>
-</ul>
-
+Para começar a escreve código em C/C++ vamos usar um software chamado Codeblocks, siga <a href ="http://t-obi.com/public/sections/1/codeblocks.pdf">esses passos</a> para instalar e executar o seu primeiro
+programar.
 <br />
 
 <a name="ideone"></a>
 <h2> 4 - Alternativa: ideone </h2>
 <p align="justify">
 Caso você não deseje executar o programa na sua máquina, uma alternativa é usar o site <a href="http://www.ideone.com" target="blank">ideone</a> ,
-no qual você pode colocar o seu código, a entrada do problema e ele compilará e executará o seu código com aquela entrada, veja um exemplo abaixo:
+no qual você pode colocar o seu código, a entrada do problema e ele compilará e executará o seu código com aquela entrada, muito similar ao que foi feito 
+no Saci nos vídeos aceima.
 </p>
 
-<img src ="http://olimpiada.ic.unicamp.br/tobi/public/sections/1/ideone.png">
+<img src ="http://t-obi.com/public/sections/1/ideone.png">
 <p align="justify">
 As partes importantes são aquelas que estão marcadas com o retângulo preto. A primeira região indica onde você deve colocar o seu código, a
 segunda região é a entrada, aquilo que o seu programa vai ler para produzir uma saída, embaixo podemos escolher a linguagem e stdin indica a
@@ -48,7 +44,7 @@ o seu código com esta entrada.
 <a name="comandos"></a>
 <h2> 5 - Comandos Básicos de C/C++ </h2>
 <ul> 
-  <li> [4] <a href ="http://olimpiada.ic.unicamp.br/tobi/public/sections/1/parte_2.pdf"> Comandos Básicos </a> material usado na semana olímpica.</li>
+  <li> [4] <a href ="http://t-obi.com/public/sections/1/parte_2.pdf"> Comandos Básicos </a> material usado na semana olímpica.</li>
 </ul>
 
 
