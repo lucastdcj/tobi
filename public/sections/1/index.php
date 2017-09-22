@@ -22,28 +22,25 @@ Agora que você aprendeu um pouco dos conceitos básicos usando Javascript, leia
 <b>Codeblocks</b>
 <p align="justify">
 Para começar a escreve código em C/C++ vamos usar um software chamado Codeblocks, siga <a href ="http://t-obi.com/public/sections/1/codeblocks.pdf">esses passos</a> para instalar e executar o seu primeiro
-programar.
+programa.
 </p>
 <b>Ideone</b>
 <p align="justify">
 Caso você não deseje executar o programa na sua máquina, uma alternativa é usar o site <a href="http://www.ideone.com" target="blank">ideone</a> ,
 no qual você pode colocar o seu código, a entrada do problema e ele compilará e executará o seu código com aquela entrada, muito similar ao que foi feito 
-no Saci nos vídeos aceima.
+no Saci nos vídeos acima.
 </p>
 <img src ="http://t-obi.com/public/sections/1/ideone.png">
 <p align="justify">
-As partes importantes são aquelas que estão marcadas com o retângulo preto. A primeira região indica onde você deve colocar o seu código, a
+As partes importantes são as que estão marcadas com o retângulo preto. A primeira região indica onde você deve colocar o seu código, a
 segunda região é a entrada, aquilo que o seu programa vai ler para produzir uma saída, embaixo podemos escolher a linguagem e stdin indica a
 <b> entrada padrão </b>, isto é, o seu programa usará como entrada os dados fornecido no retângulo acima. Por fim, clique no botão Run para executar
 o seu código com esta entrada.
 </p>
-<br />
 
 <a name="comandos"></a>
 <h2> Comandos Básicos de C/C++ </h2>
-<ul> 
-  <li> <a href ="http://t-obi.com/public/sections/1/parte_2.pdf"> Comandos Básicos </a> material usado na semana olímpica.</li>
-</ul>
+<a href ="http://t-obi.com/public/sections/1/parte_2.pdf"> Comandos Básicos </a> material usado na semana olímpica.
 
 <a name="tobi"></a>
 <h2> Submetendo no TOBI </h2>
@@ -79,7 +76,7 @@ int main() {
 <h3> Cometa </h3>
   <p align="justify">
   <b> Solução </b> Este problema é um pouco mais complicado, dado um ano a, desejamos saber qual o próximo ano que passará um cometa
-sabendo que este cometa passa nos anos 1986 + 76*k (k &gt;= 0). Logo temos que achar o menor k, tal que 1986 + 76*k &gt; a.
+sabendo que este cometa passa nos anos 1986 + 76*k (k &gt;= 0). Logo temos que achar o menor k, tal que 1986 + 76*k &gt; a. <br />
     Em C/C++, usando variáveis inteiras, uma divisão sempre é arredondada para baixo, portanto, 3 / 2 = 1, 10  / 3 = 3. Logo,
     (a - 1986) / 76 dará o último k tal que o cometa passou, então nossa resposta será simplesmente 1986 + 76 * (k + 1).
   <pre class="prettyprint"><?php echo htmlspecialchars('
