@@ -19,11 +19,14 @@ Agora que você aprendeu um pouco dos conceitos básicos usando Javascript, leia
 </ol>
 <a name="compilar"></a>
 <h2> Como executar/compilar um código </h2> 
+<b>Codeblocks</b>
+<p align="justify">
 Para começar a escreve código em C/C++ vamos usar um software chamado Codeblocks, siga <a href ="http://t-obi.com/public/sections/1/codeblocks.pdf">esses passos</a> para instalar e executar o seu primeiro
 programar.
+</p>
 <br />
 <br />
-<b>Alternativa: ideone </b>
+<b>Ideone</b>
 <p align="justify">
 Caso você não deseje executar o programa na sua máquina, uma alternativa é usar o site <a href="http://www.ideone.com" target="blank">ideone</a> ,
 no qual você pode colocar o seu código, a entrada do problema e ele compilará e executará o seu código com aquela entrada, muito similar ao que foi feito 
