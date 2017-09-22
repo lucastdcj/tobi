@@ -24,15 +24,12 @@ Agora que você aprendeu um pouco dos conceitos básicos usando Javascript, leia
 Para começar a escreve código em C/C++ vamos usar um software chamado Codeblocks, siga <a href ="http://t-obi.com/public/sections/1/codeblocks.pdf">esses passos</a> para instalar e executar o seu primeiro
 programar.
 </p>
-<br />
-<br />
 <b>Ideone</b>
 <p align="justify">
 Caso você não deseje executar o programa na sua máquina, uma alternativa é usar o site <a href="http://www.ideone.com" target="blank">ideone</a> ,
 no qual você pode colocar o seu código, a entrada do problema e ele compilará e executará o seu código com aquela entrada, muito similar ao que foi feito 
 no Saci nos vídeos aceima.
 </p>
-
 <img src ="http://t-obi.com/public/sections/1/ideone.png">
 <p align="justify">
 As partes importantes são aquelas que estão marcadas com o retângulo preto. A primeira região indica onde você deve colocar o seu código, a
