@@ -9,23 +9,21 @@ como compilá-lo e os comandos básicos de C. Antes de começar, assista aos 5 p
 <a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_3"> Aula 3 - Mais sobre o comando de escrita printf</a> <br>
 <a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_4"> Aula 4 - Declaração de variáveis e comando de atribuição</a> <br>
 <a href="http://olimpiada.ic.unicamp.br/saci/cursos_u/intro/class?c=intro_5"> Aula 5 - Comando de leitura scanf</a> <br>
-
+<p>
+<br />
 Agora que você aprendeu um pouco dos conceitos básicos usando Javascript, leia as instruções abaixo para como fazer o mesmo em C/C++.
 <ol>
   <li> <a href="#compilar"> Como executar/compilar um código </a> </li>
-  <li> <a href="#ideone"> Alternativa: ideone </a></li>
   <li> <a href="#comandos"> Comandos Básicos de C/C++ </a></li>
-  <li> <a href="#ctocpp"> C->C++ </a></li>
   <li> <a href="#tobi"> Submetendo no TOBI </a></li>
 </ol>
 <a name="compilar"></a>
-<h2> 3 - Como executar/compilar um código </h2> 
+<h2> Como executar/compilar um código </h2> 
 Para começar a escreve código em C/C++ vamos usar um software chamado Codeblocks, siga <a href ="http://t-obi.com/public/sections/1/codeblocks.pdf">esses passos</a> para instalar e executar o seu primeiro
 programar.
 <br />
-
-<a name="ideone"></a>
-<h2> 4 - Alternativa: ideone </h2>
+<br />
+<b>Alternativa: ideone </b>
 <p align="justify">
 Caso você não deseje executar o programa na sua máquina, uma alternativa é usar o site <a href="http://www.ideone.com" target="blank">ideone</a> ,
 no qual você pode colocar o seu código, a entrada do problema e ele compilará e executará o seu código com aquela entrada, muito similar ao que foi feito 
@@ -42,25 +40,13 @@ o seu código com esta entrada.
 <br />
 
 <a name="comandos"></a>
-<h2> 5 - Comandos Básicos de C/C++ </h2>
+<h2> Comandos Básicos de C/C++ </h2>
 <ul> 
   <li> [4] <a href ="http://t-obi.com/public/sections/1/parte_2.pdf"> Comandos Básicos </a> material usado na semana olímpica.</li>
 </ul>
 
-
-
-<a name="ctocpp"></a>
-<h2> 6 - C -> C++ </h2>
-
-<p align="justify">
- Os materiais aqui disponíveis são referentes a linguagem C, mas ao longo do curso todo código será em C++,
- então sugiro começar salvando seus programas em .cpp ao invés de .c e usar g++ ao invés de gcc. Essas são as únicas
-mudanças necessárias para essa parte, o código-fonte continua o mesmo.
-</p> 
-
-
 <a name="tobi"></a>
-<h2> 7 - Submetendo no TOBI </h2>
+<h2> Submetendo no TOBI </h2>
 Como esta é a primeira seção, mostraremos aqui como submeter o código e a solução de dois problemas. Após resolvido
 os problemas, para submeter é muito simples, ao lado de cada problema tem um ícone <img src="http://olimpiada.ic.unicamp.br/tobi/public/img/icons/submit.png">.
 Ao clicar neste ícone você será redirecionado para a tela de submissão, onde você deve escolher a linguagem e colar o seu código.
