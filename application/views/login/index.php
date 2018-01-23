@@ -1,8 +1,5 @@
 <div class="content">
   <div class="main">
-    <!-- echo out the system feedback (error and success messages) -->
-    <?php $this->renderFeedbackMessages(); ?>
-
     <div class="login-default-box">
         <h1>Login</h1>
         <form action="<?php echo URL; ?>login/login" method="post">

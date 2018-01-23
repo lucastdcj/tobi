@@ -1,9 +1,6 @@
 <div class="content">
     <h1>Set new password</h1>
 
-    <!-- echo out the system feedback (error and success messages) -->
-    <?php $this->renderFeedbackMessages(); ?>
-
     <!-- new password form box -->
     <form method="post" action="<?php echo URL; ?>login/setnewpassword" name="new_password_form">
         <input type='hidden' name='user_name' value='<?php echo $this->user_name; ?>' />

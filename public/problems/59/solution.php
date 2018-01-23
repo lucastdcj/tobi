@@ -25,6 +25,6 @@ int main() {
   return 0;
 }');?>
 </pre>
-<script src="http://93.188.167.1/public/highlighter/prettify.js"></script>
+<script src="https://t-obi.com/public/highlighter/prettify.js"></script>
 <script>prettyPrint();</script>
 

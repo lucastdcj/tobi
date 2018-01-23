@@ -23,7 +23,6 @@
         method="POST" enctype="multipart/form-data">
         <h2> Linguagem: </h2>
         <select name="language" size="1">
-          <option value="0" selected>Selecione... </option>
           <option value="1">C</option>
           <option value="2">C++</option>
         </select>
