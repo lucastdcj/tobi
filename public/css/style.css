@@ -1246,9 +1246,9 @@ div.faqtoc div.faq p.question *,#wikibody .pagegroup {
 #main-box-left {
   float: left;
   width: 45%;
-  height: 580px;
-  border-style:solid;
-  border-color: 000;
+  min-height: 580px;
+	border: 1px solid #acadb1;
+	border-radius: 8px;
   padding-left: 10px;
   padding-right:10px;
 }
@@ -1256,10 +1256,10 @@ div.faqtoc div.faq p.question *,#wikibody .pagegroup {
 #main-box-right {
   float: left;
   width: 45%;
-  height: 580px;
+  min-height: 580px;
   margin-left: 10px;
-  border-style:solid;
-  border-color: 000;
+	border: 1px solid #acadb1;
+	border-radius: 8px;
   padding-left: 10px;
   padding-right:10px;
 }
